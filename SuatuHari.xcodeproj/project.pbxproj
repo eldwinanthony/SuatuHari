@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C58E42B2858C9EF0009E4B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E42A2858C9EF0009E4B7 /* AppDelegate.swift */; };
 		5C58E42D2858C9EF0009E4B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E42C2858C9EF0009E4B7 /* SceneDelegate.swift */; };
-		5C58E42F2858C9EF0009E4B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E42E2858C9EF0009E4B7 /* ViewController.swift */; };
+		5C58E42F2858C9EF0009E4B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E42E2858C9EF0009E4B7 /* HomeViewController.swift */; };
 		5C58E4322858C9EF0009E4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E4302858C9EF0009E4B7 /* Main.storyboard */; };
 		5C58E4352858C9EF0009E4B7 /* SuatuHari.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E4332858C9EF0009E4B7 /* SuatuHari.xcdatamodeld */; };
 		5C58E4372858C9F00009E4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E4362858C9F00009E4B7 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		5C58E4272858C9EF0009E4B7 /* SuatuHari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuatuHari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C58E42A2858C9EF0009E4B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C58E42C2858C9EF0009E4B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C58E42E2858C9EF0009E4B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C58E42E2858C9EF0009E4B7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5C58E4312858C9EF0009E4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C58E4342858C9EF0009E4B7 /* SuatuHari.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuatuHari.xcdatamodel; sourceTree = "<group>"; };
 		5C58E4362858C9F00009E4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,16 +58,56 @@
 		5C58E4292858C9EF0009E4B7 /* SuatuHari */ = {
 			isa = PBXGroup;
 			children = (
+				5CBF124C2859D5FD0016946E /* ParentalGuideline */,
+				5CBF124B2859D5EB0016946E /* Story */,
+				5CBF124A2859D5D70016946E /* LearningCheckpoint */,
+				5CBF12492859D5D00016946E /* Character */,
+				5CBF12482859D5C60016946E /* Home */,
 				5C58E42A2858C9EF0009E4B7 /* AppDelegate.swift */,
 				5C58E42C2858C9EF0009E4B7 /* SceneDelegate.swift */,
-				5C58E42E2858C9EF0009E4B7 /* ViewController.swift */,
-				5C58E4302858C9EF0009E4B7 /* Main.storyboard */,
 				5C58E4362858C9F00009E4B7 /* Assets.xcassets */,
 				5C58E4382858C9F00009E4B7 /* LaunchScreen.storyboard */,
 				5C58E43B2858C9F00009E4B7 /* Info.plist */,
 				5C58E4332858C9EF0009E4B7 /* SuatuHari.xcdatamodeld */,
 			);
 			path = SuatuHari;
+			sourceTree = "<group>";
+		};
+		5CBF12482859D5C60016946E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5C58E4302858C9EF0009E4B7 /* Main.storyboard */,
+				5C58E42E2858C9EF0009E4B7 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5CBF12492859D5D00016946E /* Character */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		5CBF124A2859D5D70016946E /* LearningCheckpoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LearningCheckpoint;
+			sourceTree = "<group>";
+		};
+		5CBF124B2859D5EB0016946E /* Story */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		5CBF124C2859D5FD0016946E /* ParentalGuideline */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ParentalGuideline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C58E4352858C9EF0009E4B7 /* SuatuHari.xcdatamodeld in Sources */,
-				5C58E42F2858C9EF0009E4B7 /* ViewController.swift in Sources */,
+				5C58E42F2858C9EF0009E4B7 /* HomeViewController.swift in Sources */,
 				5C58E42B2858C9EF0009E4B7 /* AppDelegate.swift in Sources */,
 				5C58E42D2858C9EF0009E4B7 /* SceneDelegate.swift in Sources */,
 			);

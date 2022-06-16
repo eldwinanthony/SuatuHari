@@ -14,6 +14,7 @@
 		5C58E4352858C9EF0009E4B7 /* SuatuHari.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C58E4332858C9EF0009E4B7 /* SuatuHari.xcdatamodeld */; };
 		5C58E4372858C9F00009E4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E4362858C9F00009E4B7 /* Assets.xcassets */; };
 		5C58E43A2858C9F00009E4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C58E4382858C9F00009E4B7 /* LaunchScreen.storyboard */; };
+		AB726E43285B21B90007D8F7 /* ParentalGuidelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB726E42285B21B90007D8F7 /* ParentalGuidelineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5C58E4362858C9F00009E4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C58E4392858C9F00009E4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C58E43B2858C9F00009E4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB726E42285B21B90007D8F7 /* ParentalGuidelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParentalGuidelineViewController.swift; path = ../../../ParentalGuidelineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		5CBF124C2859D5FD0016946E /* ParentalGuideline */ = {
 			isa = PBXGroup;
 			children = (
+				AB726E42285B21B90007D8F7 /* ParentalGuidelineViewController.swift */,
 			);
 			path = ParentalGuideline;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C58E4352858C9EF0009E4B7 /* SuatuHari.xcdatamodeld in Sources */,
+				AB726E43285B21B90007D8F7 /* ParentalGuidelineViewController.swift in Sources */,
 				5C58E42F2858C9EF0009E4B7 /* HomeViewController.swift in Sources */,
 				5C58E42B2858C9EF0009E4B7 /* AppDelegate.swift in Sources */,
 				5C58E42D2858C9EF0009E4B7 /* SceneDelegate.swift in Sources */,
